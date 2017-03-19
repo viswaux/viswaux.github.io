@@ -1,0 +1,1 @@
+var books=[];books[1]={title:"asdf",subtitle:"asdf",author1:"asdf",author2:"",author3:"",link:""};var articles=[],apps=[],analog_tools=[],digital_tools=[],e_learning=[],mentoring=[];
