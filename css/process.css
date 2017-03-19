@@ -1,0 +1,61 @@
+.pfblock {
+	padding-top: 65px;
+	padding-right: 0;
+	padding-bottom: 65px;
+	padding-left: 0;
+}
+
+.pfblock-gray {
+	background: #f3f3f3;
+}
+
+.pfblock-image {
+	padding: 0;
+}
+
+.calltoaction h1,
+.calltoaction h2,
+.calltoaction h3,
+.calltoaction h4,
+.calltoaction h5,
+.calltoaction h6,
+.pfblock-image,
+.pfblock-image h1,
+.pfblock-image h2,
+.pfblock-image h3,
+.pfblock-image h4,
+.pfblock-image h5,
+.pfblock-image h6 {
+	color: #fff;
+}
+
+.pfblock-header {
+	text-align: center;
+	margin: 0 0 60px;
+}
+
+.pfblock-header-left {
+	text-align: left;
+}
+
+.pfblock-header-left .pfblock-line {
+	width: inherit;
+	margin: 30px 0;
+}
+
+.pfblock-title{
+    font-weight: 400;
+}
+
+
+
+.pfblock-line {
+	background: rgba(135, 135, 135, 0.5);
+	width: 55%;
+	height: 1px;
+	margin: 30px auto;
+}
+
+.pfblock-icon {
+	font-size: 32px;
+}

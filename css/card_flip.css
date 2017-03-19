@@ -1,0 +1,244 @@
+/*//CARDS CENTER OF HOME PAGE.*/
+#cardSection{
+text-align: center;
+}
+
+.liInline{
+display:inline;
+padding: top:5%;
+}
+
+.companyTitle{
+  font-size: 35px;
+  margin-left: -7%;
+}
+
+.icon{
+  width: 30px;
+}
+
+#iconTier{
+  padding-left:45%;
+}
+
+#iconWebMd{
+  padding-left:30%;
+}
+
+#iconBeauty{
+  padding-left:0%;
+  margin-bottom: -1%
+}
+
+#iconBunny{
+  padding-left:17%;
+}
+
+.titleDown{
+  margin-top: 10%;
+}
+
+.projectDes{
+  font-size: 18px;
+  padding-left:7%;
+  padding-right:7%;
+  margin-top:-2%;
+}
+
+.darkText{
+  color:rgb(60,89,104);
+}
+
+.lightText{
+color: rgb(60,89,104);
+}
+
+ a{
+    text-decoration: none !important;
+    color:inherit;
+}
+
+.projectBack{
+  padding-left:7%:
+}
+
+.backButton{
+  padding: 10px 15px 10px 15px;
+  border-radius: 6px;
+  font-size: 18px;
+  text-shadow:none !important;
+  border:none !important;
+  box-shadow:none !important;
+  text-align: left !important;
+  margin-left: 7%;
+  margin-top: 4%;
+}
+.lightButton{
+  background-color: rgb(236,233,226);
+  color:rgb(60,89,104)!important;
+}
+
+.darkButton{
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(118,140,147)!important;
+  color:rgb(236,233,226) !important;
+
+}
+
+.light{
+  background-color: rgb(236, 236, 236);
+  border-radius: 10px;
+}
+
+.dark{
+  background-color:rgb(250, 250, 250);
+  border-radius: 10px;
+}
+
+#comcast_persona{
+  width: 250px;
+  margin-top: 30%;
+}
+
+#plainlanguage{
+    width: 280px;
+    margin-top: 30%;
+    border-radius: 5%;
+}
+#ge{
+  width: 250px;
+  margin-top: 8%;
+
+}
+#trackme{
+    width: 250px;
+    margin-top: 10%;
+}
+#cb_mobile{
+    width: 250px;
+    margin-top: 10%;
+}
+#cb_web{
+    width: 250px;
+    margin-top: 30%;
+}
+#dish{
+  width: 280px;
+  margin-top: 30%;
+  border-radius: 5%;
+}
+#runfor{
+  width: 280px;
+  margin-top: 18%;
+  border-radius: 5%;
+}
+#coloradoan{
+    width: 230px;
+    margin-top: 10%;
+    border-radius: 15%;
+}
+
+#mockup{
+  height: 80%;
+  margin-top: 10%;
+}
+
+#wipro{
+  width: 240px;
+    margin-top: 10%;
+}
+#twitter{
+  width: 240px;
+    margin-top: 20%;
+}
+
+#buttonDiv{
+  text-align: center;
+  margin-top: 3%;
+}
+
+ #devButton{
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(118,140,147);
+  border-radius: 6px;
+  font-size: 26px;
+  display:inline-block;
+  text-shadow:none !important;
+  border:none !important;
+  box-shadow:none !important;
+  margin-top:3%;
+  margin-bottom:2%;
+  color: rgb(236,233,226) !important;
+  font-family: 'Cabin', sans-serif;
+}
+/*CSS FOR FLIP*/
+/*container keeps perspective*/
+
+#section1{
+  display:block;
+}
+
+#section2{
+  display:block;
+}
+.flip-container{
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  display: inline-block;
+}
+
+/*flips the pane when hovered*/
+.flip-container:hover .flipper, .flip-container.hover .flipper{
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back{
+  width:300px;
+  height:300px;
+}
+
+/*speed*/
+.flipper{
+  transition:1s;
+  /*0.6s*/
+  -webkit-transition:1s;
+  -moz-transition:1s;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  position:relative;
+}
+
+.flip-container {
+  margin:1%;
+}
+
+/*hide back of pane during swap*/
+.front, .back{
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+/*frontpane in front of back, transform is for firefox*/
+.front{
+  z-index:2;
+  -webkit-z-index:2;
+  -moz-z-index:2;
+  -webkit-transform:rotateY(0deg);
+  -moz-transform:rotateY(0deg);
+  transform:rotateY(0deg);
+}
+
+.back{
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  transform: rotateY(180deg);
+  font-family: 'Lora', serif;
+}
